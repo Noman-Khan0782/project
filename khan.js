@@ -67,3 +67,8 @@ console.log(c)
 var c=a+b;
 console.log(c)
 }
+// -------templete string-------
+let name = 'idrees';
+let a1 = 20;
+
+console.log(`my name is ${name} ${a1}`);
