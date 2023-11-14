@@ -98,5 +98,39 @@ function higherOrderFunction(callback) {
   
   // Calling the higher-order function and passing the callback function as an argument
   higherOrderFunction(callbackFunction);
+  console.log("===========================================")
+  // Simple Array
+let simpleArray = [1, 2, 3, 4, 5];
+
+// Accessing elements by index
+console.log(simpleArray[0]); // Output: 1
+console.log(simpleArray[2]); // Output: 3
+
+// Modifying elements
+simpleArray[1] = 10;
+console.log(simpleArray); // Output: [1, 10, 3, 4, 5]
+
+// Length of the array
+console.log(simpleArray.length); // Output: 5
+console.log("==============================================")
+// Array of Objects
+let arrayOfObjects = [
+    { name: 'Alice', age: 25 },
+    { name: 'Bob', age: 30 },
+    { name: 'Charlie', age: 28 }
+  ];
+  
+  // Accessing object properties
+  console.log(arrayOfObjects[0].name); // Output: Alice
+  console.log(arrayOfObjects[1].age); // Output: 30
+  
+  // Modifying object properties
+  arrayOfObjects[2].age = 32;
+  console.log(arrayOfObjects); // Output: [{ name: 'Alice', age: 25 }, { name: 'Bob', age: 30 }, { name: 'Charlie', age: 32 }]
+  
+  // Adding a new object
+  arrayOfObjects.push({ name: 'David', age: 27 });
+  console.log(arrayOfObjects); // Output: [{ name: 'Alice', age: 25 }, { name: 'Bob', age: 30 }, { name: 'Charlie', age: 32 }, { name: 'David', age: 27 }]
+  
   
   
