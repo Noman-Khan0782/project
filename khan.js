@@ -69,6 +69,34 @@ console.log(c)
 }
 // -------templete string-------
 let name = 'idrees';
-let a1 = 20;
 
-console.log(`my name is ${name} ${a1}`);
+let last="Khan";
+
+console.log(`my name is ${name} last name is: ${last}`
+);
+// Function with Parameters
+console.log("----------------------------------")
+function greet(name) {
+    console.log(`Hello,${name} hi`);
+  }
+  
+  // Calling the Function with an Argument
+  greet ("Noman");
+
+  console.log("-----------------------------")
+  // Higher-order function that accepts a callback function
+function higherOrderFunction(callback) {
+    console.log("Inside the higher-order function");
+    // Execute the callback function passed as an argument
+    callback();
+  }
+  
+  // Callback function passed to the higher-order function
+  function callbackFunction() {
+    console.log("This is the callback function");
+  }
+  
+  // Calling the higher-order function and passing the callback function as an argument
+  higherOrderFunction(callbackFunction);
+  
+  
