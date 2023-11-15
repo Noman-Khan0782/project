@@ -131,6 +131,19 @@ let arrayOfObjects = [
   // Adding a new object
   arrayOfObjects.push({ name: 'David', age: 27 });
   console.log(arrayOfObjects); // Output: [{ name: 'Alice', age: 25 }, { name: 'Bob', age: 30 }, { name: 'Charlie', age: 32 }, { name: 'David', age: 27 }]
-  
+{
+  for(let i=0;i<6;i++)
+  {console.log(i)
+
+  }
+  console.log("==============================")
+} 
+{
+  for (let i = 0; i < 5; i++) {
+    text += "The number is " + i + "<br>";
+    
+}
+}
+
   
   
